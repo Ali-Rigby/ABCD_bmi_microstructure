@@ -1,0 +1,58 @@
+# Conda environment for ABCD_bmi_microstructure (exported from local env `sci`).
+# Create with:
+#   conda env create -f environment.yml
+# Or update an existing env:
+#   conda env update -f environment.yml --prune
+#
+# Does not include MATLAB or cmig_tools/FEMA — install those separately.
+# Soft pins (no build strings) via conda env export --from-history, plus a few
+# packages used by this repo that were installed as dependencies.
+
+name: sci
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - h5py
+  - pyarrow
+  - openpyxl
+  - scikit-learn
+  - statsmodels
+  - nibabel
+  - nilearn
+  - dipy
+  - mne
+  - ipython
+  - jupyterlab
+  - nbclassic
+  - radian
+  - rpy2
+  - tabulate
+  - dataframe_image
+  # R
+  - r-base
+  - r-essentials
+  - r-tidyverse
+  - r-arrow
+  - r-data.table
+  - r-dplyr
+  - r-ggplot2
+  - r-gt
+  - r-gtsummary
+  - r-officer
+  - r-writexl
+  - r-openxlsx
+  - r-plyr
+  - r-psych
+  - r-pracma
+  - r-car
+  - r-lme4
+  - r-mgcv
+  - r-ordinal

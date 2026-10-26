@@ -1,0 +1,12 @@
+.Rhistory
+.RData
+.Rproj.user
+*.asv
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+data/
+results/
+*.mat
+*.parquet
+sex_spatial_overlap_manuscript.csv
