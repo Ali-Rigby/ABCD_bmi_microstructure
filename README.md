@@ -128,4 +128,5 @@ utilities/        # shared R and MATLAB libraries
 
 ## Citation
 
-[Manuscript citation to be added upon preprint / publication.]
+Rigby, A., Pecheva, D., Parekh, P., Smith, D. M., Becker, A., Linkersdörfer, J., Watts, R., Loughnan, R., Hagler, D. J., Rhee, K. E., Makowski, C., Dale, A. M., & Jernigan, T. L. (2026). Assessing nonlinear associations between body mass index and brain microstructure across adolescence (p. 2026.04.02.716201). bioRxiv. https://doi.org/10.64898/2026.04.02.716201
+
